@@ -16,21 +16,15 @@ button:focus-visible {
 a {
   text-decoration: none;
 }
-/* @FONTWARNING[{"type": "restricted", "family": "Lato", "weight": "var(--button-xl-font-weight)", "style": "normal", "allowsCrossOrigin": false}] */
+/* @FONTWARNING[{"type": "restricted", "family": "Inter-Medium", "weight": "500", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
-  font-family: "Lato";
-  src: local("Lato");
+  font-family: "Inter-Medium";
+  src: local("Inter-Medium");
 }
-/* @FONTWARNING[{"type": "restricted", "family": "Lato-Medium", "weight": "500", "style": "normal", "allowsCrossOrigin": false}] */
+/* @FONTWARNING[{"type": "restricted", "family": "Inter-Bold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
 
 @font-face {
-  font-family: "Lato-Medium";
-  src: local("Lato-Medium");
-}
-/* @FONTWARNING[{"type": "restricted", "family": "Oscine-XBold", "weight": "700", "style": "normal", "allowsCrossOrigin": false}] */
-
-@font-face {
-  font-family: "Oscine-XBold";
-  src: local("Oscine-XBold");
+  font-family: "Inter-Bold";
+  src: local("Inter-Bold");
 }
