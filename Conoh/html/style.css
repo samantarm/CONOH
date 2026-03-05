@@ -1,0 +1,222 @@
+.inicio {
+  position: relative;
+  width: 393px;
+  height: 852px;
+  background-color: #050505;
+}
+
+.inicio .butons {
+  display: flex;
+  flex-direction: column;
+  width: 393px;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: absolute;
+  top: calc(50.00% + 91px);
+  left: 0;
+}
+
+.inicio .BOTON-XL {
+  display: flex;
+  width: 341px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 7.93px;
+  padding: 10.31px 83.26px;
+  position: relative;
+  background-color: var(--negrogris-oscuro);
+  border-radius: 59.47px;
+}
+
+.inicio .done {
+  color: var(--blancoblanco);
+  position: relative;
+  width: 228.38px;
+  margin-left: -26.95px;
+  margin-right: -26.95px;
+  font-family: var(--button-xl-font-family);
+  font-weight: var(--button-xl-font-weight);
+  font-size: var(--button-xl-font-size);
+  text-align: center;
+  letter-spacing: var(--button-xl-letter-spacing);
+  line-height: var(--button-xl-line-height);
+  font-style: var(--button-xl-font-style);
+}
+
+.inicio .done-wrapper {
+  display: flex;
+  width: 341px;
+  height: 56px;
+  align-items: center;
+  justify-content: center;
+  gap: 7.93px;
+  padding: 10.31px 83.26px;
+  position: relative;
+  border-radius: 59.47px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 176, 0, 1) 16%,
+    rgba(255, 200, 20, 1) 100%
+  );
+}
+
+.inicio .text-wrapper {
+  color: #050505;
+  position: relative;
+  width: 228.38px;
+  margin-left: -26.95px;
+  margin-right: -26.95px;
+  font-family: var(--button-xl-font-family);
+  font-weight: var(--button-xl-font-weight);
+  font-size: var(--button-xl-font-size);
+  text-align: center;
+  letter-spacing: var(--button-xl-letter-spacing);
+  line-height: var(--button-xl-line-height);
+  font-style: var(--button-xl-font-style);
+}
+
+.inicio .div {
+  position: absolute;
+  top: 125px;
+  left: 33px;
+  width: 276px;
+  font-family: "Lato-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 63.3px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.inicio .LOGIN-HEADER {
+  position: absolute;
+  top: 44px;
+  left: 15px;
+  width: 363px;
+  height: 44px;
+}
+
+.inicio .text-wrapper-2 {
+  position: absolute;
+  width: 28.40%;
+  height: 52.10%;
+  top: 25.01%;
+  left: 35.72%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Oscine-XBold", Helvetica;
+  font-weight: 700;
+  color: #ffb714;
+  font-size: 30.9px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.inicio .LENGUAGE {
+  display: flex;
+  width: 19.01%;
+  height: 81.82%;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 3.5px 12px;
+  position: absolute;
+  top: 9.09%;
+  left: 80.99%;
+  background-color: var(--negrogris-oscuro);
+  border-radius: 21px;
+}
+
+.inicio .image {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  margin-left: -1.88px;
+  object-fit: cover;
+}
+
+.inicio .vector {
+  position: relative;
+  width: 14.11px;
+  height: 7.76px;
+  margin-right: -2.59px;
+}
+
+.inicio .group {
+  position: absolute;
+  top: 676px;
+  left: calc(50.00% - 154px);
+  width: 310px;
+  height: 79px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.inicio .text-wrapper-3 {
+  margin-left: -2px;
+  height: 19px;
+  width: 308px;
+  align-self: center;
+  font-family: var(--subtitles-font-family);
+  font-weight: var(--subtitles-font-weight);
+  color: #b7b7b7;
+  font-size: var(--subtitles-font-size);
+  text-align: center;
+  letter-spacing: var(--subtitles-letter-spacing);
+  line-height: var(--subtitles-line-height);
+  white-space: nowrap;
+  font-style: var(--subtitles-font-style);
+}
+
+.inicio .social-medias {
+  display: inline-flex;
+  margin-left: 49px;
+  width: 206.26px;
+  height: 35.76px;
+  position: relative;
+  align-items: center;
+  gap: 52.76px;
+}
+
+.inicio .img {
+  position: relative;
+  width: 34.95px;
+  height: 35.66px;
+}
+
+.inicio .vector-2 {
+  position: relative;
+  width: 30.04px;
+  height: 35.66px;
+}
+
+.inicio .vector-3 {
+  position: relative;
+  width: 35.74px;
+  height: 35.76px;
+}
+
+.inicio .BARRITA-IPHONE {
+  position: absolute;
+  left: calc(50.00% - 78px);
+  bottom: 1px;
+  width: 157px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.inicio .rectangle {
+  margin-top: 0;
+  width: 142.16px;
+  height: 4.14px;
+  margin-left: 0.3px;
+  background-color: var(--blancoblanco);
+  border-radius: 33.47px;
+}
