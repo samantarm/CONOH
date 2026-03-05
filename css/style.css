@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
   width: 100%;
   display: inline-flex;
@@ -9,4 +10,55 @@
 text-align: center;
 padding: 1rem;
 color: aliceblue;
+=======
+:root {
+  --griffith-red: rgba(229, 34, 50, 1);
+  --dark-red: rgba(212, 19, 35, 1);
+  --black: rgba(30, 30, 30, 1);
+  --white: rgba(255, 255, 255, 1);
+  --grey: rgba(236, 236, 236, 1);
+
+  /* tipografia */
+  --font-family: "Inter", sans-serif;
+  --font-weight-medium: 500;
+
+  font-size: 16px;
+
+  /* tamaños */
+  --xl-font-size: 10.6rem; 
+  --l-font-size: 4rem; 
+  --s-font-size: 1.5rem; 
+  --m-font-size: 1rem; 
+  --xs-font-size: 0.8rem; 
+}
+
+.xl {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: var(---xl-font-size);
+}
+
+.l {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--l-font-size);
+}
+
+.m {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--m-font-size);
+}
+
+.s {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--s-font-size);
+}
+
+.xs {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  font-size: var(--xs-font-size);
+>>>>>>> 06e140be8c789e37c627f9cbed997aa40de85653
 }
