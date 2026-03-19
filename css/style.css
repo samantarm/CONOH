@@ -49,6 +49,7 @@
   font-size: var(--xs-font-size);
 }
 
+/* navbar */
 header {
   display: fixed;
   width: 100%;
@@ -59,7 +60,13 @@ header {
 nav ul {
   display:flex;
   justify-content: space-between;
+  padding: 1.5rem;
 }
+
+main{
+  background: var(--white);
+}
+
 nav li {
    height: 100%;
   width: 100%;
@@ -79,4 +86,85 @@ nav a {
 }
 nav a:hover {
   font-weight: bolder;
+}
+
+/* hero */
+.hero {
+  height: 100vh;
+  background: var(--black);
+  padding: 5rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+}
+
+/*  contenedor hero */
+.hero-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* izq */
+.hero-izq {
+  max-width: 600px;
+}
+
+.breadcrumb {
+  color: var(--grey);
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* titulo h1 hero */
+.titulo h1 {
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* GUAM'S */
+.highlight {
+  display: inline-block;
+  background: var(--griffith-red);
+  padding: 10px 20px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* der */
+.hero-der {
+  display: 300px;
+  align-items: center;
+}
+
+/* barra buscador */
+.buscar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem; 
+  background: var(--grey);
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.buscar input {
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+
+/* icono */
+.icono {
+  right: 12px;
+  top: 50%;
+  font-size: 18px;
+  color: #666;
+  pointer-events: none;
 }
