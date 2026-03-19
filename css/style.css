@@ -97,7 +97,7 @@ filter: invert(100%);
 .hero {
   height: 50vh;
   background: var(--black);
-  padding: 8rem;
+  padding: 11rem 8rem 8rem 8rem;
   color: var(--white);
   display: flex;
   align-items: center;
