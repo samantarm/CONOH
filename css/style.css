@@ -21,7 +21,7 @@
 
 /* Misma tipografia y peso para todo el texto y titulos */
 * p {
-  font-weight: var(--s-font-size);
+  font-size: var(--s-font-size);
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   line-height: 120%;
