@@ -229,7 +229,8 @@ filter: invert(100%);
 .footer-izq ul {
   list-style: disc;
   margin-left: 2rem;
-
+  font-family: "Inter", sans-serif;
+  font-size: var(--xs-font-size);
 }
 
 .footer-izq a {
