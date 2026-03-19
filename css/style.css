@@ -54,7 +54,9 @@ header {
   display: fixed;
   width: 100%;
   z-index: 10;
+  background-color: red;
 }
+
 nav ul {
   display:flex;
   justify-content: space-between;
@@ -63,6 +65,27 @@ nav ul {
 
 main{
   background: var(--white);
+}
+
+nav li {
+   height: 100%;
+  width: 100%;
+  padding: 2rem;
+}
+nav li p {
+text-align: center;
+  align-items: center;
+}
+nav a {
+  height: 100%;
+  width: 100%;
+  
+  color: aliceblue;
+  text-decoration: none;
+  width: 100%;
+}
+nav a:hover {
+  font-weight: bolder;
 }
 
 /* hero */
@@ -94,7 +117,7 @@ main{
   font-size: 1rem;
 }
 
-/* titulo hero */
+/* titulo h1 hero */
 .titulo h1 {
   font-size: 100px;
   font-weight: 400;
@@ -117,7 +140,7 @@ main{
   align-items: center;
 }
 
-/* SEARCH */
+/* barra buscador */
 .buscar {
   position: relative;
   display: flex;
@@ -137,7 +160,7 @@ main{
   border: none;
 }
 
-/* ICONO */
+/* icono */
 .icono {
   right: 12px;
   top: 50%;
