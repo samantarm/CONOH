@@ -12,41 +12,32 @@
   font-size: 16px;
 
   /* tamaños */
-  --xl-font-size: 10.6rem; 
+  --xl-font-size: 8rem; 
   --l-font-size: 4rem; 
-  --s-font-size: 1.5rem; 
-  --m-font-size: 1rem; 
+  --m-font-size: 1.5rem; 
+  --s-font-size: 1rem; 
   --xs-font-size: 0.8rem; 
 }
 
-.xl {
+/* Misma tipografia y peso para todo el texto y titulos */
+* p {
+  font-weight: var(--s-font-size);
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
-  font-size: var(---xl-font-size);
+  line-height: 120%;
 }
 
-.l {
+* h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
+}
+
+h1 {
+  font-size: var(--xl-font-size);
+}
+
+h2 {
   font-size: var(--l-font-size);
-}
-
-.m {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--m-font-size);
-}
-
-.s {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--s-font-size);
-}
-
-.xs {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--xs-font-size);
 }
 
 /* navbar */
@@ -104,9 +95,9 @@ filter: invert(100%);
 
 /* hero */
 .hero {
-  height: 100vh;
+  height: 50vh;
   background: var(--black);
-  padding: 5rem;
+  padding: 8rem;
   color: var(--white);
   display: flex;
   align-items: center;
@@ -122,40 +113,31 @@ filter: invert(100%);
 
 /* izq */
 .hero-izq {
-  max-width: 600px;
-}
-
-.breadcrumb {
-  color: var(--grey);
-  margin-bottom: 2rem;
-  font-size: 1rem;
+  display: flex;
 }
 
 /* titulo h1 hero */
-.titulo h1 {
-  font-size: 100px;
-  font-weight: 400;
-  line-height: 1.1;
+.hero-titulo h1 {
+  color: var(--white);
+  background: var(--griffith-red);
+  margin-bottom: 2rem; 
+  padding: 1.5rem;
 }
 
-/* GUAM'S */
-.highlight {
-  display: inline-block;
-  background: var(--griffith-red);
-  padding: 10px 20px;
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.hero-titulo h2 {
+  color: var(--white);
+ 
 }
 
 /* der */
 .hero-der {
-  display: 300px;
+  display: flex;
   align-items: center;
 }
 
 /* barra buscador */
 .buscar {
+  height: 50px;
   position: relative;
   display: flex;
   align-items: center;
@@ -164,7 +146,7 @@ filter: invert(100%);
   border-radius: 1rem;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: var(--s-font-size);
   box-sizing: border-box;
 }
 
@@ -174,12 +156,82 @@ filter: invert(100%);
   border: none;
 }
 
-/* icono */
-.icono {
-  right: 12px;
-  top: 50%;
-  font-size: 18px;
-  color: #666;
-  pointer-events: none;
+.buscar img {
+  height:100%;
 }
 
+/* about */
+.about {
+
+  padding: 8rem;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+}
+
+/*  contenedor about */
+.about-container {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* izq */
+.about-izq {
+  display: flex;
+}
+
+/* titulo h1 about */
+
+.about-titulo h2 {
+  color: var(--black);
+ margin-bottom: 2rem;
+}
+
+/* der */
+.about-der {
+  display: flex;
+  align-items: center;
+}
+
+.about-der img {
+  height:100%;
+  padding: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--grey);
+  padding: 30px 50px;
+  font-size: var(--s-font-size);
+  align-items: flex-end;
+}
+
+.footer-mid img {
+  width: 2.5rem;
+  margin: 0.3rem;
+  
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-dcha img {
+  width: 10rem;
+}
+
+.footer-izq ul {
+  list-style: disc;
+  margin-left: 2rem;
+
+}
+
+.footer-izq a {
+  color: black;
+}
