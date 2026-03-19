@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-.header{
-  width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  background-color: red;
-}
-
-.header > *{
-text-align: center;
-padding: 1rem;
-color: aliceblue;
-=======
 :root {
   --griffith-red: rgba(229, 34, 50, 1);
   --dark-red: rgba(212, 19, 35, 1);
@@ -60,5 +47,4 @@ color: aliceblue;
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   font-size: var(--xs-font-size);
->>>>>>> 06e140be8c789e37c627f9cbed997aa40de85653
 }
