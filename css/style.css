@@ -21,7 +21,7 @@
 
 /* Misma tipografia y peso para todo el texto y titulos */
 * p {
-  font-weight: var(--s-font-size);
+  font-size: var(--s-font-size);
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   line-height: 120%;
@@ -46,6 +46,7 @@ header {
   width: 100%;
   z-index: 10;
   background-color: red;
+  font-size: var(--m-font-size);
 }
 
 main{
@@ -97,7 +98,7 @@ filter: invert(100%);
 .hero {
   height: 50vh;
   background: var(--black);
-  padding: 8rem;
+  padding: 11rem 8rem 8rem 8rem;
   color: var(--white);
   display: flex;
   align-items: center;
