@@ -21,8 +21,10 @@
 
 /* Misma tipografia y peso para todo el texto y titulos */
 * p {
+  font-weight: var(--s-font-size);
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
+  line-height: 120%;
 }
 
 * h1, h2, h3, h4, h5, h6 {
@@ -101,14 +103,14 @@ nav a:hover {
 }
 
 /* titulo h1 hero */
-.titulo h1 {
+.hero-titulo h1 {
   color: var(--white);
   background: var(--griffith-red);
   margin-bottom: 2rem; 
   padding: 1.5rem;
 }
 
-.titulo h2 {
+.hero-titulo h2 {
   color: var(--white);
  
 }
@@ -121,6 +123,7 @@ nav a:hover {
 
 /* barra buscador */
 .buscar {
+  height: 50px;
   position: relative;
   display: flex;
   align-items: center;
@@ -139,6 +142,46 @@ nav a:hover {
   border: none;
 }
 
-/* icono */
-.icono {
+.buscar img {
+  height:100%;
+}
+
+/* about */
+.about {
+
+  padding: 8rem;
+  color: var(--black);
+  display: flex;
+  align-items: center;
+}
+
+/*  contenedor about */
+.about-container {
+  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* izq */
+.about-izq {
+  display: flex;
+}
+
+/* titulo h1 about */
+
+.about-titulo h2 {
+  color: var(--black);
+ margin-bottom: 2rem;
+}
+
+/* der */
+.about-der {
+  display: flex;
+  align-items: center;
+}
+
+.about-der img {
+  height:100%;
+  padding: 2rem;
 }
