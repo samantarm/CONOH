@@ -185,3 +185,39 @@ nav a:hover {
   height:100%;
   padding: 2rem;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--grey);
+  padding: 30px 50px;
+  font-size: var(--s-font-size);
+  align-items: flex-end;
+}
+
+.footer-mid img {
+  width: 2.5rem;
+  margin: 0.3rem;
+  
+}
+
+.footer-mid {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-dcha img {
+  width: 10rem;
+}
+
+.footer-izq ul {
+  list-style: disc;
+  margin-left: 2rem;
+
+}
+
+.footer-izq a {
+  color: black;
+}
