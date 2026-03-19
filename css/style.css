@@ -42,41 +42,55 @@ h2 {
 
 /* navbar */
 header {
-  display: fixed;
+  position:fixed;
   width: 100%;
   z-index: 10;
   background-color: red;
-}
-
-nav ul {
-  display:flex;
-  justify-content: space-between;
-  padding: 1.5rem;
 }
 
 main{
   background: var(--white);
 }
 
+nav ul {
+  display:flex;
+  justify-content: space-between;
+  height: 3rem;
+   padding: 1rem;
+}
+
 nav li {
-   height: 100%;
+ align-items: center;
+height: 100%;
   width: 100%;
-  
 }
-nav li p {
- text-align: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
-  padding: 2rem;
-}
+
 nav a {
   color: aliceblue;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
   width: 100%;
 }
+
+nav li p {
+  text-align: center;
+  
+}
+
 nav a:hover {
   font-weight: bolder;
+}
+
+nav img {
+  
+  align-self: center;
+  height: 61px;
+}
+#accounticon{
+filter: invert(100%);
 }
 
 /* hero */
