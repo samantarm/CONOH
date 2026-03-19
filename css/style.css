@@ -12,16 +12,30 @@
   font-size: 16px;
 
   /* tamaños */
-  --xl-font-size: 10.6rem; 
+  --xl-font-size: 8rem; 
   --l-font-size: 4rem; 
   --m-font-size: 1.5rem; 
   --s-font-size: 1rem; 
   --xs-font-size: 0.8rem; 
 }
 
+/* Misma tipografia y peso para todo el texto y titulos */
 * p {
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
+}
+
+* h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+}
+
+h1 {
+  font-size: var(--xl-font-size);
+}
+
+h2 {
+  font-size: var(--l-font-size);
 }
 
 /* navbar */
@@ -65,9 +79,9 @@ nav a:hover {
 
 /* hero */
 .hero {
-  height: 100vh;
+  height: 50vh;
   background: var(--black);
-  padding: 5rem;
+  padding: 8rem;
   color: var(--white);
   display: flex;
   align-items: center;
@@ -83,33 +97,25 @@ nav a:hover {
 
 /* izq */
 .hero-izq {
-  max-width: 600px;
-}
-
-.breadcrumb {
-  color: var(--grey);
-  margin-bottom: 2rem;
-  font-size: 1rem;
+  display: flex;
 }
 
 /* titulo h1 hero */
 .titulo h1 {
-  font-size: 100px;
+  color: var(--white);
+  background: var(--griffith-red);
+  margin-bottom: 2rem; 
+  padding: 1.5rem;
 }
 
-/* GUAM'S */
-.highlight {
-  display: inline-block;
-  background: var(--griffith-red);
-  padding: 10px 20px;
-  font-size: 60px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.titulo h2 {
+  color: var(--white);
+ 
 }
 
 /* der */
 .hero-der {
-  display: 300px;
+  display: flex;
   align-items: center;
 }
 
@@ -123,7 +129,7 @@ nav a:hover {
   border-radius: 1rem;
   border: none;
   outline: none;
-  font-size: 16px;
+  font-size: var(--s-font-size);
   box-sizing: border-box;
 }
 
@@ -135,9 +141,4 @@ nav a:hover {
 
 /* icono */
 .icono {
-  right: 12px;
-  top: 50%;
-  font-size: 18px;
-  color: #666;
-  pointer-events: none;
 }
