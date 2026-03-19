@@ -14,39 +14,14 @@
   /* tamaños */
   --xl-font-size: 10.6rem; 
   --l-font-size: 4rem; 
-  --s-font-size: 1.5rem; 
-  --m-font-size: 1rem; 
+  --m-font-size: 1.5rem; 
+  --s-font-size: 1rem; 
   --xs-font-size: 0.8rem; 
 }
 
-.xl {
+* p {
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
-  font-size: var(---xl-font-size);
-}
-
-.l {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--l-font-size);
-}
-
-.m {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--m-font-size);
-}
-
-.s {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--s-font-size);
-}
-
-.xs {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-medium);
-  font-size: var(--xs-font-size);
 }
 
 /* navbar */
@@ -120,8 +95,6 @@ nav a:hover {
 /* titulo h1 hero */
 .titulo h1 {
   font-size: 100px;
-  font-weight: 400;
-  line-height: 1.1;
 }
 
 /* GUAM'S */
