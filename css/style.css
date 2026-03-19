@@ -48,3 +48,9 @@
   font-weight: var(--font-weight-medium);
   font-size: var(--xs-font-size);
 }
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
