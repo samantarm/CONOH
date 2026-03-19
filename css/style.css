@@ -141,3 +141,24 @@ nav a:hover {
   color: #666;
   pointer-events: none;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--grey);
+  padding: 30px 50px;
+  font-size: var(--s-font-size);
+}
+
+.footer-izq {
+
+}
+
+.footer-mid img {
+  width: 4rem;
+  margin: 0.3rem;
+}
+
+.footer-dcha {
+  
+}
