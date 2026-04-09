@@ -30,9 +30,12 @@ fetch("/json/obra.json")
 
 function init () {
     // obtener el id que viene en la URL
-URLSearchParams
+    let id = getUrlParam ("id");
+    console.log (id);
     // BUSCAR en datos la obra que corresponde a ese ID
-    
+    let obra = datos.find (item => item.ID == id);
+    console.log(obra);
+    if (!obra) return;
     // Cambiar el contenido de los elementos HTML con los datos de la obra
     img.src = obra.Photo;
     titulo.innerText = obra.Title;
