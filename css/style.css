@@ -236,3 +236,7 @@ filter: invert(100%);
 .footer-izq a {
   color: black;
 }
+
+.obra {
+  display: flex;
+}
