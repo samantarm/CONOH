@@ -7,9 +7,10 @@ includes.forEach (
         fetch (url)
         .then (response => response.text())
         .then (
-            (html) {
-                
-            }
-        )
-    }
-)
+            (html) => {
+            etiqueta.innerHTML = html;
+        })
+        .catch((error) => {
+            console.error("Error cargando el include:", error);
+        });
+});
