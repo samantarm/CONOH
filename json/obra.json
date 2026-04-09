@@ -1,0 +1,35 @@
+[
+  {
+    "ID": "REF-88241",
+    "Title": "Whispers of the Glaciers",
+    "Author": "Elena Villalobos",
+    "Category": "Documentary",
+    "Date": "2024-05-12",
+    "Location": "Los Glaciares National Park, Argentina",
+    "Tags": ["Nature", "Climate Change", "Aerial Photography"],
+    "Description": "A visual exploration of the retreating ice masses in Patagonia and their impact on the local ecosystem.",
+    "Photo": "https://storage.api.example/v1/images/glacier_01.jpg"
+  },
+  {
+    "ID": "REF-10593",
+    "Title": "Neon Lights in Shinjuku",
+    "Author": "Hiroshi Tanaka",
+    "Category": "Urban Architecture",
+    "Date": "2023-11-30",
+    "Location": "Tokyo, Japan",
+    "Tags": ["Cyberpunk", "Culture", "Nightlife"],
+    "Description": "A photographic series capturing the nightlife and chromatic saturation of Tokyo's busiest commercial district.",
+    "Photo": "https://storage.api.example/v1/images/shinjuku_neon.png"
+  },
+  {
+    "ID": "REF-44702",
+    "Title": "Secrets of Mediterranean Gastronomy",
+    "Author": "Marco Rossi",
+    "Category": "Lifestyle",
+    "Date": "2025-02-14",
+    "Location": "Catania, Italy",
+    "Tags": ["Cooking", "Tradition", "Health"],
+    "Description": "An exclusive interview with local chefs regarding the use of wild herbs in traditional Sicilian cuisine.",
+    "Photo": "https://storage.api.example/v1/images/mediterranean_food.webp"
+  }
+]
