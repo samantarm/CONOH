@@ -5,11 +5,9 @@ fetch ("data.json")
 const container = document.getElementById("obrasinfo");
 
 data.array.forEach(item => {
-    container.innerHTML += '
+    container.innerHTML += 
     
-    <div class = "title">${item.title}</div>
-    ';
+    <div class = "Title">${item.title}</div>
 });
     
-});
 });
