@@ -1,13 +1,12 @@
-fetch ("data.json")
-.then(response => response.json())
-.then(data => {
-
-const container = document.getElementById("obrasinfo");
-
-data.array.forEach(item => {
-    container.innerHTML += 
+fetch("obra.json")
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('obrasinfo');
     
-    <div class = "Title">${item.title}</div>
-});
-    
-});
+    data.forEach(item => {
+      container.innerHTML += `
+        <div class="Title">${item.Title}</div>
+      `;
+    });
+  })
+  .catch(error => console.error('Error:', error));
