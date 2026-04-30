@@ -6,8 +6,8 @@ fetch('../json/obra.json')
         works.forEach(work => {
             grid.innerHTML += `
                 <div class="card">
-                    <a href="obras.html?id=${work.ID}">
-                        <img src="../img/obras/${work.Photo}" alt="imagen obra">
+                    <a href="obras.html?id=${work.ID}" class="link">
+                        <img src="${work.Photo}" alt="imagen obra">
                         <ul>
                             <li class="titulo">${work.Title}</li>
                             <li class="fecha">${work.Date}</li>
