@@ -31,7 +31,7 @@
     "Tags": ["Cooking", "Tradition", "Health"],
     "Description": "An exclusive interview with local chefs regarding the use of wild herbs in traditional Sicilian cuisine.",
     "Photo": "/obras/Secrets of Mediterranean Gastronomy"
-  }
+  },
   {
     "ID": "REF-23817",
     "Title": "The Weight of Silence",
@@ -41,8 +41,8 @@
     "Location": "Accra, Ghana",
     "Tags": ["Portrait", "Identity", " Black & White"],
     "Description": "A series of black and white portraits exploring the duality between cultural heritage and urban modernity in contemporary West Africa.",
-    "Photo":""
-  }
+    "Photo":"/obras/The Weight of Silence"
+  },
   {
     "ID": "REF-55034",
     "Title": "Salt Flats at Dawn",
@@ -52,8 +52,8 @@
     "Location": "Salar de Uyuni, Bolivia",
     "Tags": ["Minimalism", "Light", "Nature"],
     "Description": "Abstract compositions captured at sunrise over the world's largest salt flat, where sky and ground become indistinguishable.",
-    "Photo":""
-  }
+    "Photo":"/obras/Salt Flats at Dawn"
+  },
   {
   "ID": "REF-67412",
   "Title": "Hands That Build",
@@ -63,7 +63,7 @@
   "Location": "Mumbai, India",
   "Tags": ["Labor", "Architecture", "Social"],
   "Description": "Photographic documentation of construction workers shaping the skyline of one of the world's most densely populated cities.",
-  "Photo":""
+  "Photo":"/obras/Hands That Build"
   },
   {
   "ID": "REF-31905",
@@ -74,7 +74,7 @@
   "Location": "Rio de Janeiro, Brazil",
   "Tags": ["Culture", "Movement", "Color"],
   "Description": "Images taken backstage during carnival, where exhaustion and euphoria coexist on the same faces.",
-  "Photo":""
+  "Photo":"/obras/Carnival of Shadows"
   },
   {
   "ID": "REF-79620",
@@ -85,7 +85,7 @@
   "Location": "Inle Lake, Myanmar",
   "Tags": ["Tradition", "Water", "Portraits"],
   "Description": "Portrait of a fishing community that preserves ancient one-legged rowing techniques on wooden boats passed down through generations.",
-  "Photo":""
+  "Photo":"/obras/The Last Fishermen"
   },
   {
   "ID": "REF-42188",
@@ -96,7 +96,7 @@
   "Location": "Berlin, Germany",
   "Tags": ["Brutalism", "Nature", "Contrast"],
   "Description": "A visual study of vegetation colonizing brutalist buildings in former East Germany, a symbol of resilience and neglect.",
-  "Photo":""
+  "Photo":"/obras/Concrete Bloom"
   },
   {
   "ID": "REF-90371",
@@ -107,6 +107,6 @@
   "Location": "Faroe Islands, Denmark",
   "Tags": ["Ocean", "Solitude", "Long Exposure"],
   "Description": "Long-exposure photographs of the Faroe Islands coastline that transform the movement of the sea into silk-like structures suspended in time.",
-  "Photo":""
+  "Photo":"/obras/Between Tides"
   }
 ]
