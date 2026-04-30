@@ -8,7 +8,7 @@
     "Location": "Los Glaciares National Park, Argentina",
     "Tags": ["Nature", "Climate Change", "Aerial Photography"],
     "Description": "A visual exploration of the retreating ice masses in Patagonia and their impact on the local ecosystem.",
-    "Photo": "/obras/Whispers of the Glaciers.jpg"
+    "Photo": "/obras/WhispersoftheGlaciers.jpg"
   },
   {
     "ID": "REF-10593",
@@ -19,7 +19,7 @@
     "Location": "Tokyo, Japan",
     "Tags": ["Cyberpunk", "Culture", "Nightlife"],
     "Description": "A photographic series capturing the nightlife and chromatic saturation of Tokyo's busiest commercial district.",
-    "Photo": "/obras/Neon Lights in Shinjuku.jpg"
+    "Photo": "/obras/NeonLightsinShinjuku.jpg"
   },
   {
     "ID": "REF-44702",
@@ -30,7 +30,7 @@
     "Location": "Catania, Italy",
     "Tags": ["Cooking", "Tradition", "Health"],
     "Description": "An exclusive interview with local chefs regarding the use of wild herbs in traditional Sicilian cuisine.",
-    "Photo": "/obras/Secrets of Mediterranean Gastronomy.jpg"
+    "Photo": "/obras/SecretsofMediterraneanGastronomy.jpg"
   },
   {
     "ID": "REF-23817",
@@ -41,7 +41,7 @@
     "Location": "Accra, Ghana",
     "Tags": ["Portrait", "Identity", " Black & White"],
     "Description": "A series of black and white portraits exploring the duality between cultural heritage and urban modernity in contemporary West Africa.",
-    "Photo":"/obras/The Weight of Silence.jpg"
+    "Photo":"/obras/TheWeightofSilence.jpg"
   },
   {
     "ID": "REF-55034",
@@ -52,7 +52,7 @@
     "Location": "Salar de Uyuni, Bolivia",
     "Tags": ["Minimalism", "Light", "Nature"],
     "Description": "Abstract compositions captured at sunrise over the world's largest salt flat, where sky and ground become indistinguishable.",
-    "Photo":"/obras/Salt Flats at Dawn.jpg"
+    "Photo":"/obras/SaltFlatsatDawn.jpg"
   },
   {
   "ID": "REF-67412",
@@ -63,7 +63,7 @@
   "Location": "Mumbai, India",
   "Tags": ["Labor", "Architecture", "Social"],
   "Description": "Photographic documentation of construction workers shaping the skyline of one of the world's most densely populated cities.",
-  "Photo":"/obras/Hands That Build.jpg"
+  "Photo":"/obras/HandsThatBuild.jpg"
   },
   {
   "ID": "REF-31905",
@@ -74,7 +74,7 @@
   "Location": "Rio de Janeiro, Brazil",
   "Tags": ["Culture", "Movement", "Color"],
   "Description": "Images taken backstage during carnival, where exhaustion and euphoria coexist on the same faces.",
-  "Photo":"/obras/Carnival of Shadows.jpg"
+  "Photo":"/obras/CarnivalofShadows.jpg"
   },
   {
   "ID": "REF-79620",
@@ -85,7 +85,7 @@
   "Location": "Inle Lake, Myanmar",
   "Tags": ["Tradition", "Water", "Portraits"],
   "Description": "Portrait of a fishing community that preserves ancient one-legged rowing techniques on wooden boats passed down through generations.",
-  "Photo":"/obras/The Last Fishermen.jpg"
+  "Photo":"/obras/TheLastFishermen.jpg"
   },
   {
   "ID": "REF-42188",
@@ -96,7 +96,7 @@
   "Location": "Berlin, Germany",
   "Tags": ["Brutalism", "Nature", "Contrast"],
   "Description": "A visual study of vegetation colonizing brutalist buildings in former East Germany, a symbol of resilience and neglect.",
-  "Photo":"/obras/Concrete Bloom.jpg"
+  "Photo":"/obras/ConcreteBloom.jpg"
   },
   {
   "ID": "REF-90371",
@@ -107,6 +107,6 @@
   "Location": "Faroe Islands, Denmark",
   "Tags": ["Ocean", "Solitude", "Long Exposure"],
   "Description": "Long-exposure photographs of the Faroe Islands coastline that transform the movement of the sea into silk-like structures suspended in time.",
-  "Photo":"/obras/Between Tides.jpg"
+  "Photo":"/obras/BetweenTides.jpg"
   }
 ]
