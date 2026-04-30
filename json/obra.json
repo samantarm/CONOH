@@ -8,7 +8,7 @@
     "Location": "Los Glaciares National Park, Argentina",
     "Tags": ["Nature", "Climate Change", "Aerial Photography"],
     "Description": "A visual exploration of the retreating ice masses in Patagonia and their impact on the local ecosystem.",
-    "Photo": "https://storage.api.example/v1/images/glacier_01.jpg"
+    "Photo": "/obras/Whispers of the Glaciers"
   },
   {
     "ID": "REF-10593",
@@ -19,7 +19,7 @@
     "Location": "Tokyo, Japan",
     "Tags": ["Cyberpunk", "Culture", "Nightlife"],
     "Description": "A photographic series capturing the nightlife and chromatic saturation of Tokyo's busiest commercial district.",
-    "Photo": "https://storage.api.example/v1/images/shinjuku_neon.png"
+    "Photo": "/obras/Neon Lights in Shinjuku"
   },
   {
     "ID": "REF-44702",
@@ -30,83 +30,6 @@
     "Location": "Catania, Italy",
     "Tags": ["Cooking", "Tradition", "Health"],
     "Description": "An exclusive interview with local chefs regarding the use of wild herbs in traditional Sicilian cuisine.",
-    "Photo": "https://storage.api.example/v1/images/mediterranean_food.webp"
-  }
-  {
-    "ID": "REF-23817",
-    "Title": "The Weight of Silence",
-    "Author": "Amara Osei",
-    "Category": "Fine Art",
-    "Date": "2024-09-03",
-    "Location": "Accra, Ghana",
-    "Tags": ["Portrait", "Identity", " Black & White"],
-    "Description": "A series of black and white portraits exploring the duality between cultural heritage and urban modernity in contemporary West Africa.",
-    "Photo":""
-  }
-  {
-    "ID": "REF-55034",
-    "Title": "Salt Flats at Dawn",
-    "Author": "Valentina Cruz",
-    "Category": "Landscape",
-    "Date": "2023-07-19",
-    "Location": "Salar de Uyuni, Bolivia",
-    "Tags": ["Minimalism", "Light", "Nature"],
-    "Description": "Abstract compositions captured at sunrise over the world's largest salt flat, where sky and ground become indistinguishable.",
-    "Photo":""
-  }
-  {
-  "ID": "REF-67412",
-  "Title": "Hands That Build",
-  "Author": "Priya Nair",
-  "Category": "Documentary",
-  "Date": "2025-01-08",
-  "Location": "Mumbai, India",
-  "Tags": ["Labor", "Architecture", "Social"],
-  "Description": "Photographic documentation of construction workers shaping the skyline of one of the world's most densely populated cities.",
-  "Photo":""
-  },
-  {
-  "ID": "REF-31905",
-  "Title": "Carnival of Shadows",
-  "Author": "Diego Ferreira",
-  "Category": "Street Photography",
-  "Date": "2024-02-28",
-  "Location": "Rio de Janeiro, Brazil",
-  "Tags": ["Culture", "Movement", "Color"],
-  "Description": "Images taken backstage during carnival, where exhaustion and euphoria coexist on the same faces.",
-  "Photo":""
-  },
-  {
-  "ID": "REF-79620",
-  "Title": "The Last Fishermen",
-  "Author": "Kenji Watanabe",
-  "Category": "Documentary",
-  "Date": "2023-04-15",
-  "Location": "Inle Lake, Myanmar",
-  "Tags": ["Tradition", "Water", "Portraits"],
-  "Description": "Portrait of a fishing community that preserves ancient one-legged rowing techniques on wooden boats passed down through generations.",
-  "Photo":""
-  },
-  {
-  "ID": "REF-42188",
-  "Title": "Concrete Bloom",
-  "Author": "Sofía Marchetti",
-  "Category": "Urban Architecture",
-  "Date": "2024-11-22",
-  "Location": "Berlin, Germany",
-  "Tags": ["Brutalism", "Nature", "Contrast"],
-  "Description": "A visual study of vegetation colonizing brutalist buildings in former East Germany, a symbol of resilience and neglect.",
-  "Photo":""
-  },
-  {
-  "ID": "REF-90371",
-  "Title": "Between Tides",
-  "Author": "Lena Bergström",
-  "Category": "Fine Art",
-  "Date": "2025-03-01",
-  "Location": "Faroe Islands, Denmark",
-  "Tags": ["Ocean", "Solitude", "Long Exposure"],
-  "Description": "Long-exposure photographs of the Faroe Islands coastline that transform the movement of the sea into silk-like structures suspended in time.",
-  "Photo":""
+    "Photo": "/obras/Secrets of Mediterranean Gastronomy"
   }
 ]
