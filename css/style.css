@@ -237,6 +237,66 @@ filter: invert(100%);
   color: black;
 }
 
+/* OBRA */
 .obra {
+  height: 50vh;
+  background: var(--white);
+  padding: 11rem 8rem 8rem 8rem;
+  color: var(--black);
   display: flex;
+  align-items: center; 
+}
+
+/*  contenedor OBRA */
+.obra-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.obra img {
+  width: 420px;
+  min-width: 420px;
+  height: auto;
+  display: block;
+}
+
+.obra#titulo {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+#autor {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 1.5rem;
+}
+
+ul li {
+  font-size: var(--s-font-size);
+  color: var(--black);
+  margin-bottom: 0.4rem;
+}
+
+#localizacion {
+  margin-bottom: 1rem;
+}
+
+#desc {
+  line-height: 1.6;
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
 }
