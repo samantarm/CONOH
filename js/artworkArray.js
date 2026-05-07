@@ -8,7 +8,7 @@ fetch('../json/obra.json')
                 <div class="card">
                     <a href="obras.html?id=${work.ID}" class="link">
                         <img src="${work.Photo}" alt="imagen obra">
-                        <ul>
+                        <ul class="contenido">
                             <li class="titulo">${work.Title}</li>
                             <li class="fecha">${work.Date}</li>
                         </ul>
