@@ -323,24 +323,28 @@ text-decoration: none;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  gap: 40px;
 }
 
 .link img {
-  width: 100%;
+  width: 50%;
   height: auto;
-  max-height: 400px;
+  max-height: 200px;
   object-fit: cover;
+  justify-self: end;
 }
 
 .contenido {
-  text-align: center;
+  text-align: start;
 }
 
 #grid > .card:nth-child(even) img{
   grid-column: 2;
   grid-row: 1;
+  justify-self: start;
 }
 #grid > .card:nth-child(even) ul{
   grid-column: 1;
   grid-row: 1;
+  text-align: end;
 }
