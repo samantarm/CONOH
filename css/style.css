@@ -20,7 +20,7 @@
 }
 
 /* Misma tipografia y peso para todo el texto y titulos */
-* p {
+* p , ul{
   font-family: var(--font-family);
   font-weight: var(--font-weight-medium);
   line-height: 120%;
@@ -308,4 +308,38 @@ text-decoration: none;
 
 .link {
   text-decoration: none;
+}
+
+/* artworks */
+
+#grid {
+  display: grid;
+  gap: 40px;
+  padding: 20px;
+}
+
+.link {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.link img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.contenido {
+  text-align: center;
+}
+
+#grid > .card:nth-child(even) img{
+  grid-column: 2;
+  grid-row: 1;
+}
+#grid > .card:nth-child(even) ul{
+  grid-column: 1;
+  grid-row: 1;
 }
