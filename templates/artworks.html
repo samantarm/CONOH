@@ -11,7 +11,30 @@
 </head>
 
 <body>
+<!-- conectar nav bar -->
+    <div id="navbar"></div>
+ <!-- llamar nav bar -->
+    <script>
+        fetch('/templates/navbar.html')
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById('navbar').innerHTML = html;
+        });
+    </script>
+<!-- cuadricula -->
+    <main>
     <div id="grid"></div>
+    </main>
+<!-- footer -->
+  <div id="footer"></div>
+<!-- llamar footer -->
+  <script>
+    fetch('/templates/footer.html')
+      .then(res => res.text())
+      .then(html => {
+        document.getElementById('footer').innerHTML = html;
+      });
+  </script>
 </body>
 
 </html>
