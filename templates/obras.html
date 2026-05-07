@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Obras</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <script src="/js/urlparams.js"></script>
-    <script defer src="/js/obras.js"></script>
-  </head>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Obras</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/urlparams.js"></script>
+  <script defer src="/js/obras.js"></script>
+</head>
+
 <body>
 <!-- conectar nav bar -->
     <div id="navbar"></div>
@@ -22,19 +24,23 @@
     </script>
 <!-- obra -->
   <main>
-    <div class="obra">
-      <img src="" alt="obra imagen" id="img">
-    <div>
-      <h2 id="titulo">Title</h2>
-      <h3 id="autor">Autor</h3>
-      <ul>
-        <li id="categoria">categoria</li>
-        <li id="fecha">fecha</li>
-        <li id="localizacion">localizacion</li>
-        <li id="desc">descrpicion</li>
-      </ul>
-      <div id="tags">tags</div>
-    </div>
+    <div class="obra-container">
+      <div class="obra">
+        <div class="obra img">
+          <img src="" alt="obra imagen" id="img">
+        </div>
+        <div class="info-obra">
+          <h2 id="titulo">Title</h2>
+          <h3 id="autor">Autor</h3>
+          <ul class="detalles">
+            <li id="categoria">categoria</li>
+            <li id="fecha">fecha</li>
+            <li id="localizacion">localizacion</li>
+            <li id="desc">descrpicion</li>
+          </ul>
+          <div id="tags">tags</div>
+        </div>
+      </div>
     </div>
   </main>
 <!-- footer -->
