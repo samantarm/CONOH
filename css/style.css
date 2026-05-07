@@ -256,6 +256,7 @@ filter: invert(100%);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0rem rem;
 }
 
 .obra img {
@@ -265,7 +266,7 @@ filter: invert(100%);
   display: block;
 }
 
-.obra#titulo {
+.obra #titulo {
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
