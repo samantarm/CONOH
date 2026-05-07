@@ -51,6 +51,7 @@ header {
 
 main{
   background: var(--white);
+  padding-top: 6rem;
 }
 
 nav ul {
