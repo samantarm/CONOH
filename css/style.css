@@ -311,6 +311,9 @@ ul li {
 }
 
 #tags {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-medium);
+  line-height: 120%;
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
