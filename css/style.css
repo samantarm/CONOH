@@ -241,18 +241,20 @@ filter: invert(100%);
 .obra {
   height: 50vh;
   background: var(--white);
-  padding: 11rem 8rem 8rem 8rem;
   color: var(--black);
   display: flex;
-  align-items: center; 
+  align-items: center;
+  gap: 24px;  
+  justify-content: center;
 }
 
 /*  contenedor OBRA */
 .obra-container {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 5rem 2rem;
 }
 
 .obra img {
@@ -267,6 +269,19 @@ filter: invert(100%);
   font-weight: 700;
   margin-bottom: 0.75rem;
   line-height: 1.1;
+}
+/* Contenedor info obras */
+.info-obra {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 #autor {
@@ -291,7 +306,7 @@ ul li {
 }
 
 #desc {
-  line-height: 1.6;
+  flex-wrap: wrap;
 }
 
 #tags {
